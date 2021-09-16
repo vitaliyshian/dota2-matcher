@@ -12,6 +12,11 @@ app = Flask(__name__, static_url_path='', static_folder='assets', template_folde
 def home():
     return render_template('home.html')
 
+@app.route('/heroes')
+def heroes():
+    return render_template('dota2_heroes.html')
+
+
 if __name__ == '__main__':
     app.run()
     # matcher_name = Matcher.name
