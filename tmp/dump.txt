@@ -1,29 +1,11 @@
-# from pprint import pprint
-# from matcher import Matcher
-# from nero import Hero
-# from item import Item
-# from DB import DB
-from flask import Flask
-from flask import request, redirect, url_for, render_template, make_response
-
-app = Flask(__name__, static_url_path='', static_folder='assets', template_folder='assets')
-
-@app.route('/')
-def home():
-    return render_template('home.html')
-
-@app.route('/heroes')
-def heroes():
-    return render_template('dota2_heroes.html')
-
-@app.route('/items')
-def items():
-    return render_template('items.html')
+from pprint import pprint
+from matcher import Matcher
+from nero import Hero
+from item import Item
+from DB import DB
 
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
-    # matcher_name = Matcher.name
+# matcher_name = Matcher.name
     # print(matcher_name)
     #
     # hero_name = Hero.name
@@ -55,5 +37,3 @@ if __name__ == '__main__':
     # db.disconnect()
     # # conf = db.config('database.ini', 'postgresql')
     # # print(conf)
-
-
