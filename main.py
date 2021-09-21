@@ -1,8 +1,8 @@
-# from pprint import pprint
+from pprint import pprint
 # from matcher import Matcher
 # from nero import Hero
 # from item import Item
-# from DB import DB
+from DB import DB
 from flask import Flask
 from flask import request, redirect, url_for, render_template, make_response
 
@@ -20,6 +20,22 @@ def heroes():
 def items():
     return render_template('items.html')
 
+@app.route('/search', methods=['GET', 'POST'])
+def search():
+    search_query = request.form.get('name_hero_item')
+    db = DB()
+    db.connect()
+    query = f"select heroes.localized_name, items.localized_name," \
+            f" items.localized_description, item_vs_hero_match.score" \
+            f" from heroes, items, item_vs_hero_match" \
+            f" where item_vs_hero_match.id_hero = heroes.id " \
+            f" and item_vs_hero_match.id_item = items.id and lower(heroes.localized_name) like '{search_query}%'" \
+            f" order by item_vs_hero_match.score desc"
+    res = db.execute(query)
+    # print(search_query)
+    # pprint(res)
+    db.disconnect()
+    return render_template('search.html', results=res)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

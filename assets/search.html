@@ -1,0 +1,21 @@
+{% include "header.html" %}
+      <div class="container-md">
+        <div class="results-container">
+            <h1>Results:</h1>
+            <ul>
+            {% for result in results %}
+              <li>
+                  <i class="d2mh {{ result[0]|lower }}"></i>
+                  <p>
+                      {{ result[0]|e }}
+                  </p>
+                  <p>{{ result[1]|e }}</p>
+                  <p>{{ result[2]|e }}</p>
+                  <p>{{ result[3]|e }}</p>
+              </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% include "footer.html" %}
+
