@@ -1,21 +1,31 @@
 {% include "header.html" %}
-      <div class="container-md">
-        <div class="results-container">
-            <h1>Results:</h1>
-            <ul>
-            {% for result in results %}
-              <li>
-                  <i class="d2mh {{ result[0]|lower }}"></i>
-                  <p>
-                      {{ result[0]|e }}
-                  </p>
-                  <p>{{ result[1]|e }}</p>
-                  <p>{{ result[2]|e }}</p>
-                  <p>{{ result[3]|e }}</p>
-              </li>
-            {% endfor %}
-            </ul>
-        </div>
-    </div>
-{% include "footer.html" %}
 
+<div class="container-md pt-5">
+    {% for group in results %}
+    <fieldset class="border p-2 mb-5">
+        <legend class="w-auto">
+            <h3>
+              <i class="d2mh {{ group['name']|replace(' ', '-')|lower }}"></i>
+              <span>{{ group['name'] }}</span>
+            </h3>
+        </legend>
+        <div class="row">
+            {% for item in group['items'] %}
+            <div class="col-12">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <i class="sprite sprite-{{ item[1]|replace(' ', '_')|replace('\'', '') }}_icon"></i>
+                        <h3 class="card-title">
+                            {{ item[1]|e }}
+                        </h3>
+                        <p class="card-text">{{ item[2]|safe }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </fieldset>
+    {% endfor %}
+</div>
+
+{% include "footer.html" %}

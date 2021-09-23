@@ -8,25 +8,38 @@ from flask import request, redirect, url_for, render_template, make_response
 
 app = Flask(__name__, static_url_path='', static_folder='assets', template_folder='assets')
 
+def __group_by(data: list, key: any) -> list:
+    arr = []
+    for item in data:
+        ext = list(filter(lambda i: i['name'] == item[key], arr))
+        if len(ext) <= 0:
+            arr.append({'name': item[key], 'items': [item]})
+        else:
+            ext[0]['items'].append(item)
+    return arr
+
 @app.route('/')
 def home():
     return render_template('home.html')
+
 
 @app.route('/heroes')
 def heroes():
     return render_template('dota2_heroes.html')
 
+
 @app.route('/items')
 def items():
     return render_template('items.html')
 
+
 @app.route('/search', methods=['GET', 'POST'])
 def search():
-    search_query = request.form.get('name_hero_item')
+    search_query = request.args.get('name_hero_item')
     db = DB()
     db.connect()
     query = f"select heroes.localized_name, items.localized_name," \
-            f" items.localized_description, item_vs_hero_match.score" \
+            f" item_vs_hero_match.description, item_vs_hero_match.score" \
             f" from heroes, items, item_vs_hero_match" \
             f" where item_vs_hero_match.id_hero = heroes.id " \
             f" and item_vs_hero_match.id_item = items.id and lower(heroes.localized_name) like '{search_query}%'" \
@@ -35,7 +48,9 @@ def search():
     # print(search_query)
     # pprint(res)
     db.disconnect()
-    return render_template('search.html', results=res)
+    grouped_res = __group_by(res, 0)
+    return render_template('search.html', results=grouped_res)
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
@@ -71,5 +86,3 @@ if __name__ == '__main__':
     # db.disconnect()
     # # conf = db.config('database.ini', 'postgresql')
     # # print(conf)
-
-
