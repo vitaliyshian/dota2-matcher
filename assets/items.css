@@ -1,6 +1,5 @@
-
 .sprite {
-    background-image: url(../images/item_map.png);
+    background-image: url(images/item_map.png);
     background-repeat: no-repeat;
     display: inline-block;
 }
@@ -8,887 +7,1241 @@
 .sprite-Abyssal_Blade_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 0;
+    background-position: -5px -5px;
 }
 
-.sprite-Aegis_icon {
+.sprite-Aegis_of_the_Immortal_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px 0;
+    background-position: -103px -5px;
 }
 
 .sprite-Aeon_Disk_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px 0;
+    background-position: -201px -5px;
 }
 
 .sprite-Aether_Lens_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px 0;
+    background-position: -299px -5px;
 }
 
-.sprite-Aghanim {
+.sprite-Aghanim_27s_Blessing_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px 0;
+    background-position: -397px -5px;
 }
 
-.sprite-Aghanim_sh {
+.sprite-Aghanim_s_Shard_-_Roshan_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px 0;
+    background-position: -495px -5px;
 }
 
-.sprite-Animal_Courier_icon {
+.sprite-Aghanim_s_Shard_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px 0;
+    background-position: -593px -5px;
+}
+
+.sprite-Animal_Courier__Dire__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -691px -5px;
+}
+
+.sprite-Animal_Courier__Radiant__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -789px -5px;
 }
 
 .sprite-Arcane_Blink_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px 0;
+    background-position: -887px -5px;
 }
 
 .sprite-Arcane_Boots_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px 0;
+    background-position: -985px -5px;
 }
 
-.sprite-Armlet_of_Mordiggian {
+.sprite-Armlet_of_Mordiggian__Active__icon {
     width: 88px;
     height: 64px;
-    background-position: -792px 0;
+    background-position: -1083px -5px;
+}
+
+.sprite-Armlet_of_Mordiggian__Inactive__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -5px -79px;
 }
 
 .sprite-Assault_Cuirass_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -64px;
+    background-position: -103px -79px;
+}
+
+.sprite-Banana_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -201px -79px;
 }
 
 .sprite-Band_of_Elvenskin_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -64px;
+    background-position: -299px -79px;
 }
 
 .sprite-Battle_Fury_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -64px;
+    background-position: -397px -79px;
 }
 
 .sprite-Belt_of_Strength_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -64px;
+    background-position: -495px -79px;
 }
 
 .sprite-Black_King_Bar_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -64px;
+    background-position: -593px -79px;
 }
 
 .sprite-Blade_Mail_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -64px;
+    background-position: -691px -79px;
 }
 
 .sprite-Blade_of_Alacrity_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -64px;
+    background-position: -789px -79px;
 }
 
 .sprite-Blades_of_Attack_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -64px;
+    background-position: -887px -79px;
 }
 
 .sprite-Blight_Stone_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -64px;
+    background-position: -985px -79px;
 }
 
 .sprite-Blink_Dagger_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -64px;
+    background-position: -1083px -79px;
 }
 
 .sprite-Blitz_Knuckles_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -128px;
+    background-position: -5px -153px;
 }
 
 .sprite-Bloodstone_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -128px;
+    background-position: -103px -153px;
 }
 
 .sprite-Bloodthorn_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -128px;
+    background-position: -201px -153px;
 }
 
 .sprite-Boots_of_Speed_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -128px;
+    background-position: -299px -153px;
 }
 
-.sprite-Boots_of_Travel_1_icon {
+.sprite-Boots_of_Travel_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -128px;
+    background-position: -397px -153px;
 }
 
 .sprite-Boots_of_Travel_2_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -128px;
+    background-position: -495px -153px;
 }
 
-.sprite-Bottle_icon {
+.sprite-Bottle__Arcane__icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -128px;
+    background-position: -593px -153px;
+}
+
+.sprite-Bottle__Bounty__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -691px -153px;
+}
+
+.sprite-Bottle__Double_Damage__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -789px -153px;
+}
+
+.sprite-Bottle__Empty__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -887px -153px;
+}
+
+.sprite-Bottle__Full__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -985px -153px;
+}
+
+.sprite-Bottle__Haste__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1083px -153px;
+}
+
+.sprite-Bottle__Illusion__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -5px -227px;
+}
+
+.sprite-Bottle__Invisibility__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -103px -227px;
+}
+
+.sprite-Bottle__Medium__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -201px -227px;
+}
+
+.sprite-Bottle__Regeneration__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -299px -227px;
+}
+
+.sprite-Bottle__Small__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -397px -227px;
+}
+
+.sprite-Bottle__Water__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -495px -227px;
 }
 
 .sprite-Bracer_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -128px;
+    background-position: -593px -227px;
 }
 
 .sprite-Broadsword_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -128px;
+    background-position: -691px -227px;
+}
+
+.sprite-Buckler__Active__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -789px -227px;
+}
+
+.sprite-Buckler__Inactive__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -887px -227px;
 }
 
 .sprite-Butterfly_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -128px;
+    background-position: -985px -227px;
 }
 
 .sprite-Chainmail_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -192px;
+    background-position: -1083px -227px;
 }
 
 .sprite-Cheese_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -192px;
+    background-position: -5px -301px;
 }
 
 .sprite-Circlet_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -192px;
+    background-position: -103px -301px;
 }
 
 .sprite-Clarity_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -192px;
+    background-position: -201px -301px;
 }
 
 .sprite-Claymore_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -192px;
+    background-position: -299px -301px;
 }
 
 .sprite-Cloak_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -192px;
+    background-position: -397px -301px;
 }
 
 .sprite-Crimson_Guard_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -192px;
+    background-position: -495px -301px;
 }
 
 .sprite-Crown_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -192px;
+    background-position: -593px -301px;
 }
 
 .sprite-Crystalys_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -192px;
+    background-position: -691px -301px;
 }
 
 .sprite-Daedalus_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -192px;
+    background-position: -789px -301px;
 }
 
-.sprite-Dagon_5_icon {
+.sprite-Dagon_1_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -256px;
+    background-position: -887px -301px;
+}
+
+.sprite-Dagon_2_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -985px -301px;
+}
+
+.sprite-Dagon_3_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1083px -301px;
+}
+
+.sprite-Dagon_4_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -5px -375px;
+}
+
+.sprite-Dagon_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -103px -375px;
 }
 
 .sprite-Demon_Edge_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -256px;
+    background-position: -201px -375px;
 }
 
 .sprite-Desolator_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -256px;
+    background-position: -299px -375px;
 }
 
 .sprite-Diffusal_Blade_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -256px;
+    background-position: -397px -375px;
+}
+
+.sprite-Diffusal_Blade_2_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -495px -375px;
 }
 
 .sprite-Divine_Rapier_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -256px;
+    background-position: -593px -375px;
 }
 
 .sprite-Dragon_Lance_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -256px;
+    background-position: -691px -375px;
 }
 
 .sprite-Drum_of_Endurance_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -256px;
+    background-position: -789px -375px;
 }
 
 .sprite-Dust_of_Appearance_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -256px;
+    background-position: -887px -375px;
 }
 
 .sprite-Eaglesong_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -256px;
+    background-position: -985px -375px;
 }
 
 .sprite-Echo_Sabre_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -256px;
+    background-position: -1083px -375px;
 }
 
 .sprite-Enchanted_Mango_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -320px;
+    background-position: -5px -449px;
 }
 
 .sprite-Energy_Booster_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -320px;
+    background-position: -103px -449px;
 }
 
 .sprite-Eternal_Shroud_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -320px;
+    background-position: -201px -449px;
 }
 
 .sprite-Ethereal_Blade_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -320px;
+    background-position: -299px -449px;
+}
+
+.sprite-Euls_Scepter_of_Divinity_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -397px -449px;
 }
 
 .sprite-Eye_of_Skadi_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -320px;
+    background-position: -495px -449px;
 }
 
 .sprite-Faerie_Fire_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -320px;
+    background-position: -593px -449px;
 }
 
 .sprite-Falcon_Blade_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -320px;
+    background-position: -691px -449px;
 }
 
 .sprite-Fluffy_Hat_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -320px;
+    background-position: -789px -449px;
+}
+
+.sprite-Flying_Courier__Dire__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -887px -449px;
+}
+
+.sprite-Flying_Courier__Radiant__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -985px -449px;
 }
 
 .sprite-Force_Staff_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -320px;
+    background-position: -1083px -449px;
 }
 
 .sprite-Gauntlets_of_Strength_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -320px;
+    background-position: -5px -523px;
 }
 
 .sprite-Gem_of_True_Sight_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -384px;
+    background-position: -103px -523px;
 }
 
 .sprite-Ghost_Scepter_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -384px;
+    background-position: -201px -523px;
 }
 
 .sprite-Gleipnir_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -384px;
+    background-position: -299px -523px;
 }
 
 .sprite-Glimmer_Cape_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -384px;
+    background-position: -397px -523px;
 }
 
 .sprite-Gloves_of_Haste_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -384px;
+    background-position: -495px -523px;
 }
 
 .sprite-Guardian_Greaves_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -384px;
+    background-position: -593px -523px;
 }
 
 .sprite-Hand_of_Midas_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -384px;
+    background-position: -691px -523px;
 }
 
 .sprite-Headdress_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -384px;
+    background-position: -789px -523px;
 }
 
 .sprite-Healing_Salve_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -384px;
+    background-position: -887px -523px;
 }
 
 .sprite-Heart_of_Tarrasque_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -384px;
+    background-position: -985px -523px;
 }
 
 .sprite-Heavens_Halberd_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -448px;
+    background-position: -1083px -523px;
 }
 
 .sprite-Helm_of_Iron_Will_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -448px;
+    background-position: -5px -597px;
 }
 
 .sprite-Helm_of_the_Dominator_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -448px;
+    background-position: -103px -597px;
 }
 
 .sprite-Helm_of_the_Overlord_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -448px;
+    background-position: -201px -597px;
 }
 
 .sprite-Holy_Locket_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -448px;
+    background-position: -299px -597px;
 }
 
 .sprite-Hood_of_Defiance_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -448px;
+    background-position: -397px -597px;
 }
 
 .sprite-Hurricane_Pike_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -448px;
+    background-position: -495px -597px;
 }
 
 .sprite-Hyperstone_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -448px;
+    background-position: -593px -597px;
 }
 
 .sprite-Infused_Raindrops_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -448px;
+    background-position: -691px -597px;
 }
 
 .sprite-Iron_Branch_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -448px;
+    background-position: -789px -597px;
 }
 
 .sprite-Javelin_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -512px;
+    background-position: -887px -597px;
 }
 
 .sprite-Kaya_and_Sange_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -512px;
+    background-position: -985px -597px;
 }
 
-.sprite-Linken_Sphere_icon {
+.sprite-Kaya_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -512px;
+    background-position: -1083px -597px;
+}
+
+.sprite-Linkens_Sphere_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -5px -671px;
 }
 
 .sprite-Lotus_Orb_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -512px;
+    background-position: -103px -671px;
 }
 
 .sprite-Maelstrom_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -512px;
+    background-position: -201px -671px;
+}
+
+.sprite-Mage_Slayer_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -299px -671px;
+}
+
+.sprite-Magic_Stick_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -397px -671px;
+}
+
+.sprite-Magic_Wand_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -495px -671px;
 }
 
 .sprite-Manta_Style_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -512px;
+    background-position: -593px -671px;
+}
+
+.sprite-Mantle_of_Intelligence_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -691px -671px;
 }
 
 .sprite-Mask_of_Madness_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -512px;
+    background-position: -789px -671px;
 }
 
 .sprite-Medallion_of_Courage_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -512px;
+    background-position: -887px -671px;
 }
 
 .sprite-Mekansm_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -512px;
+    background-position: -985px -671px;
 }
 
 .sprite-Meteor_Hammer_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -512px;
+    background-position: -1083px -671px;
 }
 
 .sprite-Mithril_Hammer_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -576px;
+    background-position: -5px -745px;
 }
 
 .sprite-Mjollnir_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -576px;
+    background-position: -103px -745px;
 }
 
 .sprite-Monkey_King_Bar_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -576px;
+    background-position: -201px -745px;
 }
 
 .sprite-Moon_Shard_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -576px;
+    background-position: -299px -745px;
 }
 
 .sprite-Morbid_Mask_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -576px;
+    background-position: -397px -745px;
 }
 
 .sprite-Mystic_Staff_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -576px;
+    background-position: -495px -745px;
+}
+
+.sprite-Necronomicon_1_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -593px -745px;
+}
+
+.sprite-Necronomicon_2_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -691px -745px;
 }
 
 .sprite-Necronomicon_3_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -576px;
+    background-position: -789px -745px;
 }
 
 .sprite-Null_Talisman_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -576px;
+    background-position: -887px -745px;
 }
 
 .sprite-Nullifier_icon {
     width: 86px;
     height: 62px;
-    background-position: -704px -576px;
+    background-position: -985px -745px;
 }
 
 .sprite-Oblivion_Staff_icon {
     width: 88px;
     height: 64px;
-    background-position: -790px -576px;
+    background-position: -1081px -745px;
+}
+
+.sprite-Observer_Ward_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -5px -819px;
 }
 
 .sprite-Observer_and_Sentry_Wards_1_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -640px;
+    background-position: -103px -819px;
+}
+
+.sprite-Observer_and_Sentry_Wards_2_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -201px -819px;
 }
 
 .sprite-Octarine_Core_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -640px;
+    background-position: -299px -819px;
 }
 
 .sprite-Ogre_Axe_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -640px;
+    background-position: -397px -819px;
 }
 
 .sprite-Orb_of_Corrosion_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -640px;
+    background-position: -495px -819px;
 }
 
 .sprite-Orb_of_Venom_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -640px;
+    background-position: -593px -819px;
 }
 
 .sprite-Orchid_Malevolence_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -640px;
+    background-position: -691px -819px;
 }
 
 .sprite-Overwhelming_Blink_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -640px;
+    background-position: -789px -819px;
 }
 
 .sprite-Perseverance_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -640px;
+    background-position: -887px -819px;
 }
 
 .sprite-Phase_Boots_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -640px;
+    background-position: -985px -819px;
 }
 
 .sprite-Pipe_of_Insight_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -640px;
+    background-position: -1083px -819px;
 }
 
 .sprite-Platemail_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -704px;
+    background-position: -5px -893px;
 }
 
 .sprite-Point_Booster_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -704px;
+    background-position: -103px -893px;
+}
+
+.sprite-Power_Treads__Agility_Colorblind__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -201px -893px;
+}
+
+.sprite-Power_Treads__Agility__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -299px -893px;
+}
+
+.sprite-Power_Treads__Intelligence__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -397px -893px;
+}
+
+.sprite-Power_Treads__Strength__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -495px -893px;
+}
+
+.sprite-Power_Treads_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -593px -893px;
 }
 
 .sprite-Quarterstaff_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -704px;
+    background-position: -691px -893px;
 }
 
 .sprite-Quelling_Blade_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -704px;
+    background-position: -789px -893px;
 }
 
 .sprite-Radiance_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -704px;
+    background-position: -887px -893px;
+}
+
+.sprite-Radiance__Inactive__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -985px -893px;
 }
 
 .sprite-Reaver_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -704px;
+    background-position: -1083px -893px;
 }
 
 .sprite-Refresher_Orb_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -704px;
+    background-position: -5px -967px;
+}
+
+.sprite-Ring_of_Basilius__Active__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -103px -967px;
+}
+
+.sprite-Ring_of_Basilius__Inactive__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -201px -967px;
 }
 
 .sprite-Ring_of_Health_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -704px;
+    background-position: -299px -967px;
 }
 
 .sprite-Ring_of_Protection_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -704px;
+    background-position: -397px -967px;
 }
 
 .sprite-Ring_of_Regen_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -704px;
+    background-position: -495px -967px;
 }
 
 .sprite-Ring_of_Tarrasque_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -768px;
+    background-position: -593px -967px;
 }
 
 .sprite-Robe_of_the_Magi_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -768px;
+    background-position: -691px -967px;
 }
 
 .sprite-Rod_of_Atos_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -768px;
+    background-position: -789px -967px;
 }
 
 .sprite-Sacred_Relic_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -768px;
+    background-position: -887px -967px;
+}
+
+.sprite-Sage_s_Mask_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -985px -967px;
 }
 
 .sprite-Sange_and_Yasha_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -768px;
+    background-position: -1083px -967px;
 }
 
 .sprite-Sange_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -768px;
+    background-position: -5px -1041px;
 }
 
 .sprite-Satanic_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -768px;
-}
-
-.sprite-Scepter_of_Divinity_icon {
-    width: 88px;
-    height: 64px;
-    background-position: -616px -768px;
+    background-position: -103px -1041px;
 }
 
 .sprite-Scythe_of_Vyse_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -768px;
+    background-position: -201px -1041px;
+}
+
+.sprite-Sentry_Ward_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -299px -1041px;
 }
 
 .sprite-Shadow_Amulet_icon {
     width: 88px;
     height: 64px;
-    background-position: -792px -768px;
+    background-position: -397px -1041px;
 }
 
 .sprite-Shadow_Blade_icon {
     width: 88px;
     height: 64px;
-    background-position: 0 -832px;
+    background-position: -495px -1041px;
 }
 
 .sprite-Shivas_Guard_icon {
     width: 88px;
     height: 64px;
-    background-position: -88px -832px;
+    background-position: -593px -1041px;
 }
 
 .sprite-Silver_Edge_icon {
     width: 88px;
     height: 64px;
-    background-position: -176px -832px;
+    background-position: -691px -1041px;
 }
 
 .sprite-Skull_Basher_icon {
     width: 88px;
     height: 64px;
-    background-position: -264px -832px;
+    background-position: -789px -1041px;
 }
 
 .sprite-Slippers_of_Agility_icon {
     width: 88px;
     height: 64px;
-    background-position: -352px -832px;
+    background-position: -887px -1041px;
 }
 
 .sprite-Smoke_of_Deceit_icon {
     width: 88px;
     height: 64px;
-    background-position: -440px -832px;
+    background-position: -985px -1041px;
 }
 
 .sprite-Solar_Crest_icon {
     width: 88px;
     height: 64px;
-    background-position: -528px -832px;
+    background-position: -1083px -1041px;
 }
 
 .sprite-Soul_Booster_icon {
     width: 88px;
     height: 64px;
-    background-position: -616px -832px;
+    background-position: -5px -1115px;
 }
 
 .sprite-Soul_Ring_icon {
     width: 88px;
     height: 64px;
-    background-position: -704px -832px;
+    background-position: -103px -1115px;
 }
 
 .sprite-Spirit_Vessel_icon {
     width: 86px;
     height: 62px;
-    background-position: -792px -832px;
+    background-position: -201px -1115px;
 }
 
 .sprite-Staff_of_Wizardry_icon {
     width: 88px;
     height: 64px;
-    background-position: -880px 0;
+    background-position: -297px -1115px;
+}
+
+.sprite-Stout_Shield_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -395px -1115px;
 }
 
 .sprite-Swift_Blink_icon {
     width: 88px;
     height: 64px;
-    background-position: -880px -64px;
+    background-position: -493px -1115px;
 }
 
 .sprite-Talisman_of_Evasion_icon {
     width: 88px;
     height: 64px;
-    background-position: -880px -128px;
+    background-position: -591px -1115px;
+}
+
+.sprite-Tango__Shared__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -689px -1115px;
 }
 
 .sprite-Tango_icon {
     width: 88px;
     height: 64px;
-    background-position: -880px -192px;
+    background-position: -787px -1115px;
 }
 
 .sprite-Tome_of_Knowledge_icon {
     width: 88px;
     height: 64px;
-    background-position: -880px -256px;
+    background-position: -885px -1115px;
 }
 
 .sprite-Town_Portal_Scroll_icon {
     width: 88px;
     height: 64px;
-    background-position: -880px -320px;
+    background-position: -983px -1115px;
+}
+
+.sprite-Tranquil_Boots__Active__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1081px -1115px;
+}
+
+.sprite-Tranquil_Boots__Inactive__icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -5px;
 }
 
 .sprite-Ultimate_Orb_icon {
     width: 88px;
     height: 64px;
-    background-position: -880px -384px;
+    background-position: -1181px -79px;
 }
 
 .sprite-Urn_of_Shadows_icon {
     width: 88px;
     height: 64px;
-    background-position: -880px -448px;
+    background-position: -1181px -153px;
+}
+
+.sprite-Vanguard_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -227px;
+}
+
+.sprite-Veil_of_Discord_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -301px;
+}
+
+.sprite-Vitality_Booster_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -375px;
+}
+
+.sprite-Vladmirs_Offering_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -449px;
+}
+
+.sprite-Void_Stone_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -523px;
+}
+
+.sprite-Voodoo_Mask_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -597px;
+}
+
+.sprite-Wind_Lace_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -671px;
+}
+
+.sprite-Wind_Waker_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1179px -745px;
+}
+
+.sprite-Witch_Blade_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -819px;
+}
+
+.sprite-Wraith_Band_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -893px;
+}
+
+.sprite-Yasha_and_Kaya_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -967px;
+}
+
+.sprite-Yasha_icon {
+    width: 88px;
+    height: 64px;
+    background-position: -1181px -1041px;
 }
