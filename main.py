@@ -30,7 +30,13 @@ def heroes():
 
 @app.route('/items')
 def items():
-    return render_template('items.html')
+    db = DB()
+    db.connect()
+    query = "select * from items where is_active = true order by items.localized_name"
+    res = db.execute(query)
+    db.disconnect()
+    return render_template('items.html', items=res)
+
 
 
 @app.route('/search', methods=['GET', 'POST'])
@@ -43,6 +49,7 @@ def search():
             f" from heroes, items, item_vs_hero_match" \
             f" where item_vs_hero_match.id_hero = heroes.id " \
             f" and item_vs_hero_match.id_item = items.id and lower(heroes.localized_name) like '{search_query}%'" \
+            f" and items.is_active = true" \
             f" order by item_vs_hero_match.score desc"
     res = db.execute(query)
     # print(search_query)

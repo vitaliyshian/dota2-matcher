@@ -28,7 +28,7 @@
     background-position: -299px -5px;
 }
 
-.sprite-Aghanim_27s_Blessing_icon {
+.sprite-Aghanims_Scepter_icon {
     width: 88px;
     height: 64px;
     background-position: -397px -5px;
@@ -40,7 +40,7 @@
     background-position: -495px -5px;
 }
 
-.sprite-Aghanim_s_Shard_icon {
+.sprite-Aghanims_Shard_icon {
     width: 88px;
     height: 64px;
     background-position: -593px -5px;
@@ -70,7 +70,7 @@
     background-position: -985px -5px;
 }
 
-.sprite-Armlet_of_Mordiggian__Active__icon {
+.sprite-Armlet_of_Mordiggian_icon {
     width: 88px;
     height: 64px;
     background-position: -1083px -5px;
@@ -202,7 +202,7 @@
     background-position: -789px -153px;
 }
 
-.sprite-Bottle__Empty__icon {
+.sprite-Bottle_icon {
     width: 88px;
     height: 64px;
     background-position: -887px -153px;
@@ -268,7 +268,7 @@
     background-position: -691px -227px;
 }
 
-.sprite-Buckler__Active__icon {
+.sprite-Buckler_icon {
     width: 88px;
     height: 64px;
     background-position: -789px -227px;
@@ -946,7 +946,7 @@
     background-position: -5px -967px;
 }
 
-.sprite-Ring_of_Basilius__Active__icon {
+.sprite-Ring_of_Basilius_icon {
     width: 88px;
     height: 64px;
     background-position: -103px -967px;
@@ -1000,7 +1000,7 @@
     background-position: -887px -967px;
 }
 
-.sprite-Sage_s_Mask_icon {
+.sprite-Sages_Mask_icon {
     width: 88px;
     height: 64px;
     background-position: -985px -967px;
@@ -1097,9 +1097,9 @@
 }
 
 .sprite-Spirit_Vessel_icon {
-    width: 86px;
-    height: 62px;
-    background-position: -201px -1115px;
+    width: 88px;
+    height: 64px;
+    background-position: -200px -1115px;
 }
 
 .sprite-Staff_of_Wizardry_icon {
@@ -1150,7 +1150,7 @@
     background-position: -983px -1115px;
 }
 
-.sprite-Tranquil_Boots__Active__icon {
+.sprite-Tranquil_Boots_icon {
     width: 88px;
     height: 64px;
     background-position: -1081px -1115px;

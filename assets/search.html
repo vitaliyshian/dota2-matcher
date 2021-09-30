@@ -14,7 +14,18 @@
             <div class="col-12">
                 <div class="card mb-2">
                     <div class="card-body">
-                        <i class="sprite sprite-{{ item[1]|replace(' ', '_')|replace('\'', '') }}_icon"></i>
+                        <div class="row">
+                            <div class="col">
+                                <i class="sprite sprite-{{ item[1]|replace(' ', '_')|replace('\'', '') }}_icon"></i>
+                            </div>
+                            <div class="col text-end">
+                                {% for i in range(5) %}
+                                    {% set rating = item[3] %}
+                                    <span class="fa fa-star {{ 'checked' if (i + 1) * 20 <= rating else '' }}"></span>
+                                    <!-- <span>{{ rating }}</span>  Проверка-->
+                                {% endfor %}
+                            </div>
+                        </div>
                         <h3 class="card-title">
                             {{ item[1]|e }}
                         </h3>
