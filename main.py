@@ -42,15 +42,18 @@ def items():
 @app.route('/search', methods=['GET', 'POST'])
 def search():
     search_query = request.args.get('name_hero_item')
+    search_query = search_query.lower()
     db = DB()
     db.connect()
     query = f"select heroes.localized_name, items.localized_name," \
-            f" item_vs_hero_match.description, item_vs_hero_match.score" \
+            f" item_vs_hero_match.description," \
+            f" least(100, greatest(0, item_vs_hero_match.score + ((item_vs_hero_match.social_score / 1000) * 20))) as \"score\"," \
+            f" items.wiki_url" \
             f" from heroes, items, item_vs_hero_match" \
             f" where item_vs_hero_match.id_hero = heroes.id " \
             f" and item_vs_hero_match.id_item = items.id and lower(heroes.localized_name) like '{search_query}%'" \
             f" and items.is_active = true" \
-            f" order by item_vs_hero_match.score desc"
+            f" order by score desc"
     res = db.execute(query)
     # print(search_query)
     # pprint(res)
