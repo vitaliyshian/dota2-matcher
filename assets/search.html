@@ -36,15 +36,17 @@
                                 <span class="fa fa-star {{ 'checked' if (i + 1) * 20 <= rating else '' }}"></span>
                                 <!-- <span>{{ rating }}</span>  Проверка-->
                                 {% endfor %}
+                                {% if isAuth %}
                                 <div class="pt-3">
-                                    <button class="dislike me-2" onclick="dislike()">
+                                    <button class="dislike me-2" data-item-id="{{ item[5] }}" onclick="dislike(this, {{ item[5] }})" disbaled="{{ item[5] }}">
                                         <i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
                                     </button>
 
-                                    <button class="like" onclick="like()">
+                                    <button class="like" data-item-id="{{ item[5] }}" onclick="like(this, {{ item[5] }})" disbaled="{{ item[5] }}">
                                         <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
                                     </button>
                                 </div>
+                                {% endif %}
                             </div>
                         </div>
                         <h3 class="card-title">

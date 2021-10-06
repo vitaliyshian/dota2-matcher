@@ -33,10 +33,29 @@ def items():
     db = DB()
     db.connect()
     query = "select * from items where is_active = true order by items.localized_name"
-    res = db.execute(query)
+    res = db.fetch_all(query)
     db.disconnect()
     return render_template('items.html', items=res)
 
+@app.route('/like', methods=['GET'])
+def like():
+    id = request.args.get('id')
+    db = DB()
+    db.connect()
+    query = f"UPDATE item_vs_hero_match set social_score = social_score + 1 where id = {id}"
+    db.commit(query)
+    db.disconnect()
+    return {"status": "success"}
+
+@app.route('/dislike', methods=['GET'])
+def dislike():
+    id = request.args.get('id')
+    db = DB()
+    db.connect()
+    query = f"UPDATE item_vs_hero_match set social_score = social_score - 1 where id = {id}"
+    db.commit(query)
+    db.disconnect()
+    return {"status": "success"}
 
 
 @app.route('/search', methods=['GET', 'POST'])
@@ -48,13 +67,14 @@ def search():
     query = f"select heroes.localized_name, items.localized_name," \
             f" item_vs_hero_match.description," \
             f" least(100, greatest(0, item_vs_hero_match.score + ((item_vs_hero_match.social_score / 1000) * 20))) as \"score\"," \
-            f" items.wiki_url" \
+            f" items.wiki_url," \
+            f" item_vs_hero_match.id" \
             f" from heroes, items, item_vs_hero_match" \
             f" where item_vs_hero_match.id_hero = heroes.id " \
             f" and item_vs_hero_match.id_item = items.id and lower(heroes.localized_name) like '{search_query}%'" \
             f" and items.is_active = true" \
             f" order by score desc"
-    res = db.execute(query)
+    res = db.fetch_all(query)
     # print(search_query)
     # pprint(res)
     db.disconnect()

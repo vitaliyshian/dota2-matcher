@@ -87,7 +87,7 @@ class DB:
         except (Exception, psycopg2.DatabaseError) as error:
             print(error)
 
-    def execute(self, query: str) -> any:
+    def fetch_all(self, query: str) -> any:
         # Создание курсора
         cur = self.conn.cursor()
         # Добавление  SQL Запроса к очереди запросов базы данных
@@ -96,3 +96,13 @@ class DB:
         #db_res = cur.fetchone()
         db_res = cur.fetchall()
         return db_res
+
+    def commit(self, query: str):
+        # Создание курсора
+        cur = self.conn.cursor()
+        # Добавление  SQL Запроса к очереди запросов базы данных
+        cur.execute(query)
+        # Применение результата запроса Если в базе изменяем значение (подтверждение)
+        self.conn.commit()
+        # Закрытие курсора
+        cur.close()
