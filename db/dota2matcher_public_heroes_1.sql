@@ -62,13 +62,13 @@ INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, 
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (93, 'npc_dota_hero_slark', 'Slark', 'agi', 'Melee', 'Carry,Escape,Disabler,Nuker', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (94, 'npc_dota_hero_medusa', 'Medusa', 'agi', 'Ranged', 'Carry,Disabler,Durable', 0);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (97, 'npc_dota_hero_magnataur', 'Magnus', 'str', 'Melee', 'Initiator,Disabler,Nuker,Escape', 4);
-INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (27, 'npc_dota_hero_shadow_shaman', 'Shadow-Shaman', 'int', 'Ranged', 'Support,Pusher,Disabler,Nuker,Initiator', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (42, 'npc_dota_hero_skeleton_king', 'Wraith King', 'str', 'Melee', 'Carry,Support,Durable,Disabler,Initiator', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (43, 'npc_dota_hero_death_prophet', 'Death Prophet', 'int', 'Ranged', 'Carry,Pusher,Nuker,Disabler', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (71, 'npc_dota_hero_spirit_breaker', 'Spirit Breaker', 'str', 'Melee', 'Carry,Initiator,Disabler,Durable,Escape', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (88, 'npc_dota_hero_nyx_assassin', 'Nyx Assassin', 'agi', 'Melee', 'Disabler,Nuker,Initiator,Escape', 6);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (113, 'npc_dota_hero_arc_warden', 'Arc Warden', 'agi', 'Ranged', 'Carry,Escape,Nuker', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (89, 'npc_dota_hero_naga_siren', 'Naga Siren', 'agi', 'Melee', 'Carry,Support,Pusher,Disabler,Initiator,Escape', 0);
+INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (27, 'npc_dota_hero_shadow_shaman', 'Shadow Shaman', 'int', 'Ranged', 'Support,Pusher,Disabler,Nuker,Initiator', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (98, 'npc_dota_hero_shredder', 'Timbersaw', 'str', 'Melee', 'Nuker,Durable,Escape', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (99, 'npc_dota_hero_bristleback', 'Bristleback', 'str', 'Melee', 'Carry,Durable,Initiator,Nuker', 2);
 INSERT INTO public.heroes (id, name, localized_name, primary_attr, attack_type, roles, legs) VALUES (110, 'npc_dota_hero_phoenix', 'Phoenix', 'str', 'Ranged', 'Support,Nuker,Initiator,Escape,Disabler', 2);

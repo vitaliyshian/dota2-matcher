@@ -27,7 +27,6 @@ def home():
 def heroes():
     return render_template('dota2_heroes.html')
 
-
 @app.route('/items')
 def items():
     db = DB()
@@ -56,7 +55,6 @@ def dislike():
     db.commit(query)
     db.disconnect()
     return {"status": "success"}
-
 
 @app.route('/search', methods=['GET', 'POST'])
 def search():

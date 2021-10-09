@@ -1,6 +1,6 @@
 import psycopg2
 from configparser import ConfigParser
-
+import os
 
 class DB:
     conn = None
@@ -40,7 +40,9 @@ class DB:
 
         try:
             # Получаем Конфиг
-            params = self.config('database.ini', 'postgresql')
+            env = os.environ['ENV']
+            conf = 'database_dev.ini' if env == 'development' else 'database.ini'
+            params = self.config(conf, 'postgresql')
 
             # connect to the PostgreSQL server
             print('Connecting to the PostgreSQL database...')
@@ -70,7 +72,9 @@ class DB:
     def connect(self):
         try:
             # Получаем Конфиг
-            params = self.config('database.ini', 'postgresql')
+            env = os.environ['ENV']
+            conf = 'database_dev.ini' if env == 'development' else 'database.ini'
+            params = self.config(conf, 'postgresql')
 
             # connect to the PostgreSQL server
             print('Connecting to the PostgreSQL database...')

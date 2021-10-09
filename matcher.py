@@ -1,7 +1,6 @@
 from nero import Hero
 from item import Item
 
-
 class Matcher:
     name: 'Hero' = None
     item: 'Item' = None
